@@ -63,10 +63,10 @@ const Main = () => {
         }
     }, [coordinates])
 
-    useEffect(() => {
-        console.log(coordinates)
-        console.log(weatherData)
-    })
+    // useEffect(() => {
+    //     console.log(coordinates)
+    //     console.log(weatherData)
+    // })
 
     const locationName = useSelector((state) => state.weather.locationActive)
 
